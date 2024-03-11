@@ -1,0 +1,86 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.playerinfo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    margin-left: 20%;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+
+td {
+    padding-right: 50px;
+}
+
+.name {
+    font-family: Impact;
+    font-size: 5em;
+}
+
+.info {
+    font-family: Impact;
+    font-size: 2.5em;
+}
+
+
+.playericon {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: right;
+    margin-right: 20%;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.icon {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid 1px #000000;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.6);
+}
+
+hr {
+    margin-bottom: 70px;
+    border-top: 2px solid;
+}
+
+.videos {
+    margin: 0 auto;
+    display: flex;
+    width: 90%;
+    flex-wrap : wrap;
+    justify-content: flex-start;
+}
+
+.contents {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.thumnail {
+    width: 320px;
+    transition: transform .3s ease; 
+}
+
+.thumnail:hover {
+    transform: scale(1.2);
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    width: 320px;
+}
