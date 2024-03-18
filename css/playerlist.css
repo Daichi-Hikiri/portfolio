@@ -1,3 +1,4 @@
+/*----- 背景文字のフォント、位置 -----*/
 #header {
     position: relative;
     font-size: 13em;
@@ -11,7 +12,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* ----------------------------------- */
 
+
+/*----- プレイヤーアイコンの表示位置、サイズ -----*/
 #playerList {
     margin: 0 auto;
     width: 90%;
@@ -29,7 +33,6 @@
     list-style: none;
     display: inline-block;
     vertical-align: middle;
-
 }
 
 .icon {
@@ -40,3 +43,4 @@
     border: solid 1px #000000;
     box-shadow: 1px 1px 10px rgba(0,0,0,0.6);
 }
+/* ----------------------------------- */

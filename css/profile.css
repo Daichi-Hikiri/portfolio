@@ -1,9 +1,13 @@
+/*----- 全体サイズ -----*/
 body {
     width: 80%;
     margin: 0 auto;
     margin-top: 5%;
 }
+/* ----------------------------------- */
 
+
+/*----- プロフィール、アイコンを横並びに表示 -----*/
 .profile {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -20,11 +24,17 @@ body {
     grid-area: 1 / 1 / 2 / 2;
 }
 
-
-td {
-    padding-right: 50px;
+.playericon {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: right;
+    margin-right: 20%;
+    grid-area: 1 / 2 / 2 / 3;
 }
+/* ----------------------------------- */
 
+
+/*----- プロフィールのフォント、余白設定 -----*/
 .name {
     font-family: Impact;
     font-size: 5em;
@@ -35,15 +45,13 @@ td {
     font-size: 2.5em;
 }
 
-
-.playericon {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: right;
-    margin-right: 20%;
-    grid-area: 1 / 2 / 2 / 3;
+td {
+    padding-right: 50px;
 }
+/* ----------------------------------- */
 
+
+/*----- プレイヤーアイコンの設定 -----*/
 .icon {
     height: 200px;
     width: 200px;
@@ -51,11 +59,16 @@ td {
     border: solid 1px #000000;
     box-shadow: 1px 1px 10px rgba(0,0,0,0.6);
 }
+/* ----------------------------------- */
 
+
+/*----- 罫線の設定 -----*/
 hr {
     margin-bottom: 70px;
     border-top: 2px solid;
 }
+/* ----------------------------------- */
+
 
 .videos {
     margin: 0 auto;

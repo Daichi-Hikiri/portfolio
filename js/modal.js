@@ -1,3 +1,4 @@
+// モーダルウィンドウのサイズ
 $('.iframe').modaal({
 	type: 'iframe',
 	width: 1280,

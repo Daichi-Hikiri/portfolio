@@ -1,4 +1,4 @@
-
+// プレイヤープロフィール
 let imagawaInfo = {name: "imagawa", weapon: "Guardian, Marshal", role: "Controller"};
 let prinaInfo = {name: "Prina", weapon: "Phantom, Spectre", role: "Controller, Sentinel, Duelist"};
 let wappoInfo = {name: "wappo", weapon: "Ares, Vandal", role: "Initiator, Sentinel"};
@@ -8,6 +8,7 @@ let ymgcInfo = {name: "ymgc", weapon: "Operator", role: "Duelist"};
 let yujironInfo = {name: "Yujiron", weapon: "Odin, Vandal", role: "Initiator"};
 let itouhamuInfo = {name: "itouhamu", weapon: "Vandal, Phantom", role: "Duelist, Sentinel, Controller"};
 
+// クリップIDとタイトル
 let imagawaVideo = [
     {id: "gThUMpz4sNA", title: "音全部飛んでたワ"},
     {id: "U_7um_0MTQs", title: "こどもace"},
@@ -164,6 +165,7 @@ let pName = document.getElementById("name");
 let weapon = document.getElementById("weapon");
 let role = document.getElementById("role");
 
+// 取得したプレイヤー名で表示内容を判別する処理
 if(playerName == 'imagawa'){
     pName.innerHTML = imagawaInfo["name"];
     weapon.innerHTML = imagawaInfo["weapon"];
@@ -291,15 +293,3 @@ else if(playerName == 'itouhamu'){
             '</div>');
     });
 };
-
-
-// $(function () {
-//     const thumnail = $('.thumnail');
-//     $(".thumnail").hover(function () {
-//       //マウスオーバーしたときの処理
-//       thumnail.not(this).stop().animate({opacity:0.3});
-//     },function () {
-//       //マウスアウトしたときの処理
-//       thumnail.not(this).stop().animate({opacity:1});
-//     });
-// });

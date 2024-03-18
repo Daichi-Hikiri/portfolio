@@ -1,5 +1,6 @@
+// プレイヤーアイコンをホバー時に背景文字をプレイヤー名に変更
 $(function() {
-	const defoult = "PLAYERS";
+	const defoult = "PLAYERS";  // デフォルト文字
 	const playerName = $(".playerName");
 
 	$("#imagawa").mouseover(function() {
@@ -52,13 +53,14 @@ $(function() {
 });
 
 
+// アイコンをマウスホバーした時の処理
 $(function () {
     const icon = $('.icon');
     icon.hover(function () {
-      //マウスオーバーしたときの処理
+      // ホバー時、他のアイコンの透明度を変更
       icon.not(this).stop().animate({opacity:0.3});
     },function () {
-      //マウスアウトしたときの処理
+      // ホバーアウト時に元に戻す処理
        icon.not(this).stop().animate({opacity:1});
     });
 });
