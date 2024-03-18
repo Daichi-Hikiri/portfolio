@@ -14,21 +14,15 @@ let imagawaVideo = [
     {id: "U_7um_0MTQs", title: "こどもace"},
     {id: "sc_4tpYX4N8", title: "ace"},
     {id: "Uu2c5gjBM-E", title: "えんとりー男"},
-    {id: "WLgNQgWQQUM", title: "ふりっくぷりちゃん"},
     {id: "s8CpZsPA2yo", title: "uoooooooooooooooo"},
-    {id: "RCTCODvEtyM", title: "りム石のぶりーず"},
-    {id: "-XK511g8kGU", title: "うｒ－ｔｙんつよすぎワロタ"},
     {id: "eawyU45RsHE", title: "名誉の死"},
     {id: "IDnYj_bqmL0", title: "ヨル裏どり"},
     {id: "v6gF84oOe_8", title: "ぐちゃ"},
     {id: "fHU-5RZ8gJg", title: "かねくれ"},
     {id: "9V0t7n8PsPM", title: "マサル入信者募"},
     {id: "9_RKZfWR4sE", title: "新キャラ深夜"},
-    {id: "4z_KvF4kng4", title: "高音質になった男"},
     {id: "ugnX5ObIXLc", title: "わぽがわ　見えないバトル"},
-    {id: "CoNhZW6a3a4", title: "身内アンレートぷｒ　情熱解除"},
     {id: "RtWx3_8BrYg", title: "身内　あたし"},
-    {id: "MvpIPbHzt2M", title: "身内くらっちうりーちゃん"},
     {id: "bBvk8HzmSmQ", title: "壁回"},
     {id: "TDX3HtSTzEE", title: "うおい！"},
     {id: "f0mvCF_NCsU", title: "女子ラント"},
@@ -39,7 +33,8 @@ let imagawaVideo = [
     {id: "tGFk5xcUJHE", title: "がわでぃあん"},
     {id: "wbJdVDsttMQ", title: "じゃりふたり"},
     {id: "0a7U-AidnNs", title: "野良の人"},
-    {id: "A3PwpPISY5o", title: "Valorant ぷりちゃんビデオ判定　2020 08 14 17 26 09 10"},
+    {id: "lL1YNDwerOk", title: "いまがわいけめん"},
+    {id: "q_cRozFi_Tk", title: "ぴよちゃん"},
     {id: "65xfVtmwH2I", title: "Valorant 2.8cmの男 2020 08 08 22 51 35 09"},
     {id: "zxNGBPQyd2s", title: "Valorant torisan disconnected 2020 08 08 16 55 58 02"},
     {id: "jCOmoX9LjcQ", title: "Valorant hamu stinger ace 2020 08 01 13 44 41 20"},
@@ -49,7 +44,6 @@ let imagawaVideo = [
     {id: "Md3NQe2w-D4", title: "Valorant　ﾊｻﾏｯﾃﾙ… 2020 07 20 17 19 13 14 1"},
     {id: "SNrDbesEck0", title: "Valorant とりさん毒死"},
     {id: "vRsfre2pRE8", title: "Valorant だめなひ 2020 06 26 22 53 07 05"},
-    {id: "00Aat3mTQQk", title: "Valorant うりーちゃんやばい 2020 06 25 22 30 50 19"},
     {id: "PzVzsv0x6nQ", title: "Valorant 2020 06 25 17 48 55 11"},
     {id: "UsbrAQ204Ho", title: "Valorant 2020 06 22 16 08 35 03"},
     {id: "yyrGJkWLFCc", title: "Valorant 2020 06 18 16 17 31 03"},
@@ -59,62 +53,63 @@ let imagawaVideo = [
 ];
 
 let prinaVideo = [
-    {id: "FMmSJXJKiCA", title: "ぐっちょんのカッコいいやつ"},
-    {id: "ScT-JwFW5uY", title: "ぐちジェット"},
+    {id: "WLgNQgWQQUM", title: "ふりっくぷりちゃん"},
+    {id: "CoNhZW6a3a4", title: "身内アンレートぷｒ　情熱解除"},
     {id: "1bKnDQxRU54", title: "毒毒毒"},
     {id: "H29pGw8PiPw", title: "bb"},
     {id: "FBaPU5pPGko", title: "別視点"},
     {id: "-c1upQ-0R7A", title: "no brain"},
-    {id: "VhUEuzpXO3M", title: "わぽくらっち（声あり）"},
-    {id: "EXzqxEUd63A", title: "うりムスACE"},
-    {id: "86nuCQ9VpZ0", title: "とりクラッチ"},
-    {id: "b_4Zr1wNgWk", title: "わっぽクラッチ"},
-    {id: "lL1YNDwerOk", title: "いまがわいけめん"},
     {id: "00UdDfALy68", title: "ぼく。"},
-    {id: "gyVSSCAHWFg", title: "とりさんクラッチ"},
     {id: "8TqDr6CjRcI", title: "帰ってきたドローン"},
-    {id: "YT17kyhBWck", title: "和っぽクラッチ"},
-    {id: "RbHsK5PCP1c", title: "うりーちゃんの"},
     {id: "CxwtDAY-G24", title: "うんこ"},
     {id: "tt7JEoKeITY", title: "うんこ２"},
     {id: "HN12WenkyfM", title: "big brain"},
     {id: "0DGxUqMQ1_0", title: "ホイールの調子悪くなった"},
-    {id: "xpziZ-XQBpU", title: "ウリジョイace"},
     {id: "heLJ7AkplUw", title: "きーきー"},
-    {id: "ldoCkXbXebA", title: "ガーディワッポ"},
     {id: "RWJCHy9f_bA", title: "拾ったSR"},
     {id: "1D3eyUEnEm4", title: "ヴァイパー"},
     {id: "RUjgMeZPk7k", title: "スカイ１"},
     {id: "_l8G5Yvv_Ec", title: "スカイ２"},
     {id: "9wxpUfZV_sE", title: "."},
     {id: "oZwBFdYfxNg", title: "花火"},
-    {id: "q_cRozFi_Tk", title: "ぴよちゃん"},
     {id: "WTNNvmhl1pA", title: "朝のナイフ"},
-    {id: "3AEEPqye6lA", title: "鳥クラッチ"},
     {id: "bDLGkZZ9j5Q", title: "ショックボルト"},
     {id: "Czxc0YWkUn4", title: "VALORANT 2020 08 22 16 30 03 Trim Trim"},
     {id: "bHMXA1k7It4", title: "オーメンマン"},
-    {id: "OARY64F5HSg", title: "ウリーちゃんクラッチ"}
+    {id: "A3PwpPISY5o", title: "Valorant ぷりちゃんビデオ判定　2020 08 14 17 26 09 10"}
 ];
 
 let wappoVideo = [
-
+    {id: "4z_KvF4kng4", title: "高音質になった男"},
+    {id: "b_4Zr1wNgWk", title: "わっぽクラッチ"},
+    {id: "VhUEuzpXO3M", title: "わぽくらっち（声あり）"},
+    {id: "YT17kyhBWck", title: "和っぽクラッチ"},
+    {id: "ldoCkXbXebA", title: "ガーディワッポ"}
 ];
 
 let toriVideo = [
-
+    {id: "86nuCQ9VpZ0", title: "とりクラッチ"},
+    {id: "gyVSSCAHWFg", title: "とりさんクラッチ"},
+    {id: "3AEEPqye6lA", title: "鳥クラッチ"}
 ];
 
 let uryyyyyVideo = [
-
+    {id: "RCTCODvEtyM", title: "りム石のぶりーず"},
+    {id: "-XK511g8kGU", title: "うｒ－ｔｙんつよすぎワロタ"},
+    {id: "MvpIPbHzt2M", title: "身内くらっちうりーちゃん"},
+    {id: "00Aat3mTQQk", title: "Valorant うりーちゃんやばい 2020 06 25 22 30 50 19"},
+    {id: "EXzqxEUd63A", title: "うりムスACE"},
+    {id: "xpziZ-XQBpU", title: "ウリジョイace"},
+    {id: "RbHsK5PCP1c", title: "うりーちゃんの"},
+    {id: "OARY64F5HSg", title: "ウリーちゃんクラッチ"}
 ];
 
 let ymgcVideo = [
-
+    {id: "FMmSJXJKiCA", title: "ぐっちょんのカッコいいやつ"},
+    {id: "ScT-JwFW5uY", title: "ぐちジェット"}
 ];
 
 let yujironVideo = [
-    {id: "o-kK6H1pvDM", title: "hamu ACE"},
     {id: "H8QeEw3acxg", title: "快感"},
     {id: "GPD3eFsnVYc", title: "prina 獅子奮迅"},
     {id: "elS53C7agqQ", title: "楽しそう"},
@@ -122,6 +117,7 @@ let yujironVideo = [
 ];
 
 let itouhamuVideo = [
+    {id: "o-kK6H1pvDM", title: "hamu ACE"},
     {id: "EE0C44UwaWE", title: "ACEEEEEEEE"},
     {id: "5CGK0HeRKE8", title: "分断された"},
     {id: "KNoa6ZBsOS0", title: "プライムの力"},
